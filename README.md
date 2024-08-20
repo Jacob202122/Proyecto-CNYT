@@ -1,1 +1,1 @@
-# Proyecto-CNYT
+# LIBRERÍA COMPUTACIÓN CUÁNTICA
