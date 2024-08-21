@@ -1,6 +1,5 @@
 import math
 
-# De cartesiana a polares
 def PolaresACartesianas(polar):
     
     a = polar[0]*math.cos(polar[1])
