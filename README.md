@@ -17,7 +17,7 @@ Para utilizar esta librería, necesitas:
 
 1. Clona uno de los repositorios disponibles:
     ```bash
-    git clone https://github.com/usuario/repo.git
+    https://github.com/Jacob202122/Proyecto-CNYT/tree/28069721c87123a27f5907c50bcac48b85e72d45/Operaciones
     ```
 
 2. Copia el módulo de operaciones que necesites en tu proyecto. 
