@@ -35,6 +35,8 @@ El proyecto está organizado en las siguientes carpetas:
 ### Ejemplo de Uso
 
     En el caso de querer usar "Fase de un número complejo".
+    Para obtener la fase de un número complejo con el programa desarrollado, se debe modificar la lista dentro del print dentro de la función main. La posición [0] de esta lista representa la parte real, mientras que [1] representa la parte imaginaría. 
+    En esta ocasión quiero la fase del número c = 1 + i, es decir, escribo la tupla [1,1] en la función main.
     
     import math
 
@@ -48,7 +50,7 @@ El proyecto está organizado en las siguientes carpetas:
         
         print(fase([1,1]))
             
-    Para obtener la fase de un número complejo con el programa desarrollado, se debe modificar la lista dentro del print dentro de la función main. La posición [0] de esta lista representa la parte real, mientras que [1] representa la parte imaginaría.
+    
 
 
 
