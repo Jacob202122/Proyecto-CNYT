@@ -15,20 +15,11 @@ Para utilizar esta librería, necesitas:
 
 ### Instalación
 
-1. Clona el repositorio:
-    ```bash
-    git clone https://github.com/usuario/repo.git
-    ```
+1. Clona uno de los repositorios.
 
-2. Navega al directorio del proyecto:
-    ```bash
-    cd repo
-    ```
+2. Copia una de las operaciones en un editor de Python.
 
-3. Instala las dependencias necesarias (si hay un archivo `requirements.txt`):
-    ```bash
-    pip install -r requirements.txt
-    ```
+
 
 ### Estructura del Proyecto
 
@@ -42,6 +33,9 @@ El proyecto está organizado en las siguientes carpetas:
 - **`Pruebas`**: Contiene los scripts de prueba que verifican la funcionalidad de los módulos en la carpeta `Operaciones`.
 
 ### Ejemplo de Uso
+
+    Para el caso de querer usar "Fase de un número complejo".
+        
 
 
 
