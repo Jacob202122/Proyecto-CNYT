@@ -43,21 +43,11 @@ El proyecto está organizado en las siguientes carpetas:
 
 ### Ejemplo de Uso
 
-A continuación se muestra un ejemplo básico de cómo usar los módulos de la librería:
 
-```python
-from operaciones.SumC import sumar
-from operaciones.ProductoC import multiplicar
 
-# Sumar números complejos
-resultado_suma = sumar([1, 2], [3, 4])
-print("Resultado de la suma:", resultado_suma)
 
-# Multiplicar números complejos
-resultado_producto = multiplicar([1, 2], [3, 4])
-print("Resultado del producto:", resultado_producto)
 
-## Construido Con
+## Construido con:
 
 - **Python**: El lenguaje de programación principal utilizado para implementar la lógica de la librería.
 - **Visual Studio**: Entorno de desarrollo integrado utilizado para el desarrollo del proyecto. También se puede utilizar cualquier otro editor de código compatible con Python.
