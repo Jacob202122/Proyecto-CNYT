@@ -1,3 +1,7 @@
+import math
+import unittest
+
+
 def fase(a):
     
     teta = math.atan2(a[1],a[0])
