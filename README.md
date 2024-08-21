@@ -34,9 +34,21 @@ El proyecto está organizado en las siguientes carpetas:
 
 ### Ejemplo de Uso
 
-    Para el caso de querer usar "Fase de un número complejo".
-        
+    En el caso de querer usar "Fase de un número complejo".
+    
+    import math
 
+    def fase(a):
+        
+        teta = math.atan2(a[1],a[0])
+        
+        return teta
+        
+    if __name__ == "__main__":
+        
+        print(fase([1,1]))
+            
+    Para obtener la fase de un número complejo con el programa desarrollado, se debe modificar la lista dentro del print dentro de la función main. La posición [0] de esta lista representa la parte real, mientras que [1] representa la parte imaginaría.
 
 
 
