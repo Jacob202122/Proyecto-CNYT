@@ -9,17 +9,16 @@ Para utilizar esta librería, necesitas:
 - **Python**: Un intérprete de Python 3.8 o superior. Puedes descargarlo desde [python.org](https://www.python.org/).
 - **Editor de Código o IDE**: Aunque el proyecto se desarrolló con Visual Studio, puedes usar cualquier editor o IDE que soporte Python, como PyCharm, VS Code, o Atom.
 
-
-
 ## Instalación y Uso
 
 ### Instalación
 
-1. Clona uno de los repositorios.
+1. Clona uno de los repositorios disponibles:
+    ```bash
+    git clone https://github.com/usuario/repo.git
+    ```
 
-2. Copia una de las operaciones en un editor de Python.
-
-
+2. Copia el módulo de operaciones que necesites en tu proyecto. 
 
 ### Estructura del Proyecto
 
@@ -32,27 +31,22 @@ El proyecto está organizado en las siguientes carpetas:
 
 - **`Pruebas`**: Contiene los scripts de prueba que verifican la funcionalidad de los módulos en la carpeta `Operaciones`.
 
-### Ejemplo de Uso
+## Ejemplo de Uso
 
-    En el caso de querer usar "Fase de un número complejo".
-    Para obtener la fase de un número complejo con el programa desarrollado, se debe modificar la lista dentro del print dentro de la función main. La posición [0] de esta lista representa la parte real, mientras que [1] representa la parte imaginaría. 
-    En esta ocasión quiero la fase del número c = 1 + i, es decir, escribo la tupla [1,1] en la función main.
-    
-    import math
-
-    def fase(a):
-        
-        teta = math.atan2(a[1],a[0])
-        
-        return teta
-        
-    if __name__ == "__main__":
-        
-        print(fase([1,1]))
-            
-    
-
-
+  Aquí se muestra un ejemplo básico de cómo usar el módulo para calcular la fase de un número complejo:
+  
+  ```python
+  import math
+  
+  def fase(a):
+      teta = math.atan2(a[1], a[0])
+      return teta
+  
+  if __name__ == "__main__":
+      # Ejemplo: calcular la fase del número complejo 1 + i
+      print(fase([1, 1]))
+  
+  En este ejemplo, la función fase toma una lista que representa un número complejo, donde la posición [0] es la parte real y [1] es la parte imaginaria. La salida de fase([1, 1]) es la fase del número complejo 1 + i.
 
 
 ## Construido con:
@@ -63,4 +57,3 @@ El proyecto está organizado en las siguientes carpetas:
 ## Autor
 
 - **Jacobo Díaz Alvarado**: Desarrollador principal del proyecto.
-
