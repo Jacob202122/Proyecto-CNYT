@@ -17,7 +17,7 @@ Para utilizar esta librería, necesitas:
 
 1. Clona uno de los repositorios disponibles:
     ```bash
-    https://github.com/Jacob202122/Proyecto-CNYT/tree/28069721c87123a27f5907c50bcac48b85e72d45/Operaciones
+    https://github.com/Jacob202122/Proyecto-CNYT/tree/d8770cfc3212e1995115f5411da4c107730e644a/Complex%20Library
     ```
 
 2. Copia el módulo de operaciones que necesites en tu proyecto. 
